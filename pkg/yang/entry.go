@@ -109,6 +109,9 @@ type Entry struct {
 	// the augmenting entity per RFC6020 Section 7.15.2. The namespace
 	// of the Entry should be accessed using the Namespace function.
 	namespace *Value
+
+	// ReadOnly.
+	ReadOnlyConfig bool
 }
 
 // An RPCEntry contains information related to an RPC Node.
